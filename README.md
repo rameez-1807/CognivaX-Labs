@@ -67,6 +67,39 @@ In a crowded AI market, clarity, trust, and positioning matter just as much as t
 
 ---
 
+## Architecture Flow
+
+```mermaid
+flowchart LR
+    A[Business Goal] --> B[Discovery & Strategy]
+    B --> C[AI/Automation Design]
+    C --> D[Prototype / Validation]
+    D --> E[Data + APIs + Integrations]
+    E --> F[Production System]
+    F --> G[Monitoring + Optimization]
+    G --> H[Business Outcomes]
+
+    H --> I[Efficiency Gains]
+    H --> J[Decision Intelligence]
+    H --> K[Operational Scale]
+
+    subgraph Platform
+        C1[LLM Layer]
+        C2[Knowledge Base]
+        C3[Workflow Engine]
+        C4[Cloud Infrastructure]
+    end
+
+    C --> C1
+    C --> C2
+    C --> C3
+    F --> C4
+```
+
+This architecture reflects the full product lifecycle: strategy, systems design, AI orchestration, deployment, and continuous optimization.
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
@@ -77,6 +110,19 @@ In a crowded AI market, clarity, trust, and positioning matter just as much as t
 | Styling | Tailwind CSS |
 | Icons | Lucide React |
 | Deployment Ready | Vercel / Node Hosting |
+
+---
+
+## GitHub & Project Status
+
+```text
+Repository: https://github.com/rameez-1807/CognivaX-Labs.git
+Project Type: Landing Page / Brand Website
+Stack: Next.js + Tailwind CSS + TypeScript
+Status: Production-ready frontend foundation
+```
+
+This repository acts as the foundation for a premium AI consultancy web presence and can be extended with case studies, blog content, lead capture forms, and real business assets.
 
 ---
 
