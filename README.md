@@ -1,10 +1,14 @@
 # CognivaX Labs
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" alt="Next.js 14" />
-  <img src="https://img.shields.io/badge/Tailwind-3.x-38BDF8?style=for-the-badge&logo=tailwindcss" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Status-Production%20Ready-10B981?style=for-the-badge" alt="Production Ready" />
+  <img src="https://img.shields.io/badge/Next.js-14-000000?style=for-the-badge&logo=next.js" alt="Next.js 14" />
+  <img src="https://img.shields.io/badge/Tailwind-3.4-38BDF8?style=for-the-badge&logo=tailwindcss" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/TypeScript-5.5-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Build-Ready-10B981?style=for-the-badge" alt="Build Ready" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1400&q=80" alt="CognivaX Labs hero banner" />
 </p>
 
 <p align="center">
@@ -12,63 +16,71 @@
 </p>
 
 <p align="center">
-  A modern, high-end landing page for CognivaX Labs — crafted to showcase AI engineering, enterprise automation, digital transformation, and future-ready consulting capabilities.
+  <i>Engineering intelligence for the modern enterprise.</i>
+</p>
+
+<p align="center">
+  A premium, high-end landing page for CognivaX Labs — crafted to showcase AI strategy, intelligent automation, digital transformation, and enterprise-grade technology consulting.
 </p>
 
 ---
 
 ## Overview
 
-CognivaX Labs is positioned as a technology-first consulting and AI partner for businesses looking to build intelligent systems, automate workflows, and accelerate digital transformation.
+CognivaX Labs is a forward-looking technology company helping organizations turn next-generation AI into measurable business value.
 
-This project delivers a premium brand experience with:
+This project represents a polished digital brand presence built for:
 
-- a strong AI-first visual identity
-- a clean conversion-focused landing page
-- enterprise-grade messaging and positioning
-- responsive design for desktop and mobile experiences
-
----
-
-## Why This Project Matters
-
-Modern businesses need more than generic marketing pages — they need a digital presence that communicates trust, capability, and strategic value.
-
-This repo is designed to help CognivaX Labs present itself as a serious technology partner in the following areas:
-
-- Generative AI strategy and implementation
-- AI agents and intelligent automation
-- RAG and knowledge systems
-- Data-driven product and workflow engineering
-- Cloud-native systems and modern software delivery
+- AI strategy and implementation
+- intelligent workflow automation
+- enterprise transformation programs
+- software engineering and cloud modernization
+- future-ready product innovation
 
 ---
 
-## Key Features
+## Why This Brand Experience Matters
 
-- Premium dark-tech aesthetic using Tailwind CSS
-- Responsive hero section with strong brand storytelling
-- Capability showcase cards for AI and engineering offerings
-- Use-case sections for practical business outcomes
-- Conversion-focused contact CTA for lead generation
-- Clean, scalable Next.js architecture
+In a crowded AI market, clarity, trust, and positioning matter just as much as technical capability. This landing page is designed to communicate that CognivaX Labs is not just another digital agency — it is a strategic partner for building intelligent systems that create real operational leverage.
+
+---
+
+## Highlights
+
+- premium dark-tech aesthetic
+- conversion-focused landing page structure
+- responsive experience for all device sizes
+- modern enterprise positioning and storytelling
+- strong use-case storytelling for AI and automation
+- clean Next.js + Tailwind architecture
+
+---
+
+## Core Capabilities
+
+- Generative AI systems and LLM solutions
+- AI agents and workflow orchestration
+- Intelligent document processing
+- Knowledge management and RAG architecture
+- Data platform and analytics modernization
+- Digital product and cloud engineering
 
 ---
 
 ## Tech Stack
 
-| Category | Stack |
+| Layer | Technology |
 | --- | --- |
-| Framework | Next.js 14 |
-| UI Library | React 18 |
+| Frontend | Next.js 14 |
+| UI | React 18 |
 | Language | TypeScript |
 | Styling | Tailwind CSS |
 | Icons | Lucide React |
-| Build Tool | Next.js App Router |
+| Deployment Ready | Vercel / Node Hosting |
 
 ---
 
-## Project Structure
+## Repository Structure
 
 ```bash
 cognivax-labs/
@@ -86,7 +98,7 @@ cognivax-labs/
 ├── README.md
 ├── tailwind.config.ts
 ├── tsconfig.json
-└── .next/   # generated after local run/build
+└── .next/
 ```
 
 ---
@@ -95,28 +107,28 @@ cognivax-labs/
 
 ### Prerequisites
 
-- Node.js 18.17 or later
-- npm installed
+- Node.js 18.17+
+- npm
 
-### Install Dependencies
+### Installation
 
 ```bash
 npm install
 ```
 
-### Run Locally
+### Run locally
 
 ```bash
 npm run dev
 ```
 
-Open the project in your browser at:
+Then visit:
 
 ```text
 http://localhost:3000
 ```
 
-> If port 3000 is busy, Next.js may automatically choose another available port such as 3001.
+> If port 3000 is unavailable, Next.js will automatically switch to the next available port such as 3001.
 
 ---
 
@@ -126,7 +138,7 @@ http://localhost:3000
 npm run build
 ```
 
-To serve the production build locally:
+Serve the production build locally:
 
 ```bash
 npm run start
@@ -134,41 +146,41 @@ npm run start
 
 ---
 
-## Brand Customization Guide
+## Customization Checklist
 
-To turn this into a real business-ready site, update the following before launch:
+Before going live, update these business essentials:
 
-- replace the demo email with your real contact email
-- add your real LinkedIn and social profiles
-- swap placeholders with actual case studies or project results
-- add your own logo and branding assets in the public folder
-- connect the CTA to a real contact form or CRM workflow
+- replace placeholder email with your real contact email
+- add real LinkedIn and social links
+- insert actual client projects or case study references
+- add your branding and logo assets in the public folder
+- connect the CTA to your preferred CRM, email, or form workflow
 
 ---
 
-## Design Direction
+## Design Philosophy
 
-This page is intentionally designed to reflect a premium, enterprise-grade AI consultancy style:
+This interface is intentionally crafted to feel premium, modern, and enterprise-ready:
 
-- dark modern background
-- sharp typography
-- subtle cyan and indigo gradients
-- polished cards and call-to-action blocks
-- strong strategic messaging for B2B audiences
+- deep, refined dark palette
+- bold typography and gesture-driven spacing
+- asymmetrical yet balanced sections
+- subtle gradients and glass effects
+- clean product storytelling for B2B buyers
 
 ---
 
 ## License
 
-This project is currently structured for business and portfolio use. Before public deployment, confirm branding, legal, and domain requirements for your organization.
+This project is designed for business and portfolio use. Before public deployment, ensure your domain, brand, and legal requirements are fully reviewed.
 
 ---
 
 ## Contact
 
-For business inquiries or project collaboration:
+For inquiries and collaborations:
 
 - Email: hello@cognivaxlabs.com
 - Website: cognivaxlabs.com
 
-Built for the next wave of AI-driven transformation.
+Built to shape the future of AI-enabled business transformation.
