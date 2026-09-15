@@ -1,31 +1,72 @@
 # CognivaX Labs
 
-A premium AI, technology, and consulting landing page built with Next.js and Tailwind CSS. The experience is designed to position CognivaX Labs as a modern digital consultancy focused on AI engineering, intelligent automation, and enterprise transformation.
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" alt="Next.js 14" />
+  <img src="https://img.shields.io/badge/Tailwind-3.x-38BDF8?style=for-the-badge&logo=tailwindcss" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Status-Production%20Ready-10B981?style=for-the-badge" alt="Production Ready" />
+</p>
+
+<p align="center">
+  <strong>AI • Technology • Consulting</strong>
+</p>
+
+<p align="center">
+  A modern, high-end landing page for CognivaX Labs — crafted to showcase AI engineering, enterprise automation, digital transformation, and future-ready consulting capabilities.
+</p>
+
+---
 
 ## Overview
 
-CognivaX Labs helps businesses turn emerging technology into measurable outcomes. This project showcases a polished brand presence for:
+CognivaX Labs is positioned as a technology-first consulting and AI partner for businesses looking to build intelligent systems, automate workflows, and accelerate digital transformation.
+
+This project delivers a premium brand experience with:
+
+- a strong AI-first visual identity
+- a clean conversion-focused landing page
+- enterprise-grade messaging and positioning
+- responsive design for desktop and mobile experiences
+
+---
+
+## Why This Project Matters
+
+Modern businesses need more than generic marketing pages — they need a digital presence that communicates trust, capability, and strategic value.
+
+This repo is designed to help CognivaX Labs present itself as a serious technology partner in the following areas:
 
 - Generative AI strategy and implementation
-- AI agents and workflow automation
-- Modern digital product engineering
-- Data-driven decision systems and cloud architecture
+- AI agents and intelligent automation
+- RAG and knowledge systems
+- Data-driven product and workflow engineering
+- Cloud-native systems and modern software delivery
 
-## Highlights
+---
 
-- Premium dark-tech visual design
-- Responsive one-page marketing experience
-- Strong conversion-focused CTAs
-- Modern product-style sections for capabilities, use cases, and contact
-- Tailwind-powered design system with subtle gradients and motion
+## Key Features
+
+- Premium dark-tech aesthetic using Tailwind CSS
+- Responsive hero section with strong brand storytelling
+- Capability showcase cards for AI and engineering offerings
+- Use-case sections for practical business outcomes
+- Conversion-focused contact CTA for lead generation
+- Clean, scalable Next.js architecture
+
+---
 
 ## Tech Stack
 
-- Next.js 14
-- React 18
-- TypeScript
-- Tailwind CSS
-- Lucide React icons
+| Category | Stack |
+| --- | --- |
+| Framework | Next.js 14 |
+| UI Library | React 18 |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Icons | Lucide React |
+| Build Tool | Next.js App Router |
+
+---
 
 ## Project Structure
 
@@ -37,41 +78,47 @@ cognivax-labs/
 │   └── page.tsx
 ├── components/
 ├── public/
+├── .gitignore
+├── next-env.d.ts
 ├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── README.md
 ├── tailwind.config.ts
 ├── tsconfig.json
-├── postcss.config.js
-├── next-env.d.ts
-├── README.md
-└── package-lock.json
+└── .next/   # generated after local run/build
 ```
+
+---
 
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js 18.17 or later
-- npm or yarn
+- npm installed
 
-### Installation
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Run the app locally
+### Run Locally
 
 ```bash
 npm run dev
 ```
 
-Then open:
+Open the project in your browser at:
 
 ```text
 http://localhost:3000
 ```
 
-If port 3000 is occupied, the app will automatically shift to the next available port such as 3001.
+> If port 3000 is busy, Next.js may automatically choose another available port such as 3001.
+
+---
 
 ## Production Build
 
@@ -79,26 +126,49 @@ If port 3000 is occupied, the app will automatically shift to the next available
 npm run build
 ```
 
-To start the production server:
+To serve the production build locally:
 
 ```bash
 npm run start
 ```
 
-## Customization Guide
+---
 
-To make this project production-ready for your business, update these items:
+## Brand Customization Guide
 
-- Replace the sample email with your real contact address
-- Add your actual company LinkedIn or social URLs
-- Swap demo project cards with real customer case studies
-- Add your brand logo and business assets in the public folder
-- Connect the contact CTA to a real form, CRM, or email flow
+To turn this into a real business-ready site, update the following before launch:
 
-## Brand Positioning
+- replace the demo email with your real contact email
+- add your real LinkedIn and social profiles
+- swap placeholders with actual case studies or project results
+- add your own logo and branding assets in the public folder
+- connect the CTA to a real contact form or CRM workflow
 
-This landing page is crafted to communicate a premium consultancy identity with a strong AI narrative, modern enterprise positioning, and crisp conversion-focused storytelling.
+---
+
+## Design Direction
+
+This page is intentionally designed to reflect a premium, enterprise-grade AI consultancy style:
+
+- dark modern background
+- sharp typography
+- subtle cyan and indigo gradients
+- polished cards and call-to-action blocks
+- strong strategic messaging for B2B audiences
+
+---
 
 ## License
 
-This project is currently configured for personal business use and internal deployment. If you plan to publish it publicly, confirm branding, legal, and domain usage requirements before launch.
+This project is currently structured for business and portfolio use. Before public deployment, confirm branding, legal, and domain requirements for your organization.
+
+---
+
+## Contact
+
+For business inquiries or project collaboration:
+
+- Email: hello@cognivaxlabs.com
+- Website: cognivaxlabs.com
+
+Built for the next wave of AI-driven transformation.
